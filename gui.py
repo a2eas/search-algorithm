@@ -6,13 +6,13 @@ class SearchAlgorithmApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Search Algorithms")
-        self.root.geometry("400x400")  # Adjust window size
+        self.root.geometry("400x400")  
         self.graph = {}
 
-        # Create buttons and add them to the window
+
         self.create_buttons()
 
-        # Create a Listbox to display the path
+
         self.path_listbox = tk.Listbox(self.root, width=50, height=10, font=("Arial", 12))
         self.path_listbox.pack(pady=20)
 
